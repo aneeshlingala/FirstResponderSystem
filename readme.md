@@ -31,6 +31,6 @@ All of the PCBS come with code made in PlatformIO in VSCode. The programming lan
 The folders inside the survivornode, broadcastnode, or environmental node are structured as follows:
 * The pcb_code folder includes the PCB Code written in C++.
 * The pcb_images folder includes images of the schematic, PCB top-down, and the PCB in 3D.
-* The pcb_data folder includes KiCAD files for opening the PCB in KiCad. It also includes the Bill of Materials (BOM) and component positions CSV as well as the Gerber files in a zip.
+* The pcb_data folder includes KiCAD files for opening the PCB in KiCAD. It also includes the Bill of Materials (BOM) and component positions CSV as well as the Gerber files in a zip.
 
 The computer_code folder has a reciever.exe file for running on Windows without any dependencies being required to be installed. The reciever.py file can be run universally and requires Tkinter, pyserial, and Python 3.13+ to run.
