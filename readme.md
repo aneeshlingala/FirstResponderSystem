@@ -34,3 +34,9 @@ The folders inside the survivornode, broadcastnode, or environmental node are st
 * The pcb_data folder includes KiCAD files for opening the PCB in KiCAD. It also includes the Bill of Materials (BOM) and component positions CSV as well as the Gerber files in a zip.
 
 The computer_code folder has a reciever.exe file for running on Windows without any dependencies being required to be installed. The reciever.py file can be run universally and requires Tkinter, pyserial, and Python 3.13+ to run.
+
+
+
+# DIAGRAM
+<img width="1375" height="2325" alt="DiagramFirstResponderSystem" src="https://github.com/user-attachments/assets/aa57760f-e5ed-49a4-a554-ddbbb89a2e3d" />
+
