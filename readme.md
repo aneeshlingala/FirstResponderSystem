@@ -26,10 +26,10 @@ All of the PCBS come with images:
 * Image of the PCB top-down
 * Image of the PCB in 3D view
 
-All of the PCBS come with code made in PlatformIO in VSCode. The programming language used to make the code is C/C++. The code successfully compiles with the firmware file in the .pio/build/[MCU NAME]/ and uses a good amount of 3rd-party libraries to interface with various components. 
+All of the PCBS come with code made in PlatformIO in VSCode. The programming language used to make the code is C++. The code successfully compiles with the firmware file in the .pio/build/[MCU NAME]/ and uses a good amount of 3rd-party libraries to interface with various components. 
 
 The folders inside the survivornode, broadcastnode, or environmental node are structured as follows:
-* The pcb_code folder includes the PCB Code written in C/C++.
+* The pcb_code folder includes the PCB Code written in C++.
 * The pcb_images folder includes images of the schematic, PCB top-down, and the PCB in 3D.
 * The pcb_data folder includes KiCAD files for opening the PCB in KiCAD. It also includes the Bill of Materials (BOM) and component positions CSV as well as the Gerber files in a zip.
 
