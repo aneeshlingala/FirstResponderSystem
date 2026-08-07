@@ -1,4 +1,4 @@
-### Tech Report Link: https://docs.google.com/document/d/1cU0RR5oTQ4QJjnsE6cYd-bPgLhYNoq3esTsewzPmzHg/edit?usp=sharing 
+### Tech Report Link: [https://github.com/aneeshlingala/FirstResponderSystem/blob/main/tech_report_reverie_hacks_final.pdf](https://github.com/aneeshlingala/FirstResponderSystem/blob/main/tech_report_reverie_hacks_final.pdf)
 
 # PROBLEM
 During major disasters, first responders (police, fire, medical) do not have a reliable way to track their environment, find survivors, and receive information in real time. Existing systems can be expensive, hard to deploy, or require additional personnel to operate, wasting manpower that can be used from more urgent tasks.
