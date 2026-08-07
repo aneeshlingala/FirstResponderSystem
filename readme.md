@@ -1,10 +1,12 @@
+### Tech Report Link: https://docs.google.com/document/d/1cU0RR5oTQ4QJjnsE6cYd-bPgLhYNoq3esTsewzPmzHg/edit?usp=sharing 
+
 # PROBLEM
 During major disasters, first responders (police, fire, medical) do not have a reliable way to track their environment, find survivors, and receive information in real time. Existing systems can be expensive, hard to deploy, or require additional personnel to operate, wasting manpower that can be used from more urgent tasks.
 
 # SOLUTION
 The FirstResponderSystem uses cheap to manufacture, durable, and easy-to-deploy custom-made PCBs that create a centralized long-range radio network suited for emergencies instead of relying on broken or buggy connection systems (WiFi, Mobile Data, etc). By providing real-time sensor data and survivor detection, FirstResponderSystem allows emergency personnel to analyze dangerous conditions, locate any survivors, and make safe decisions while allowing responders to work on more urgent things. The data can also be sent to other organizations to relay information to people in the area, declare evacuations/emergencies, and more. The survivor node can be put in rubble to detect survivors, while the environmental node can be put in various parts of the disaster area. Multiple survivor and environmental nodes can be used at once. 
 
-# CONTENTS
+# CONTENTS OF GITHUB REPO
 1. Survivor PCB
    * This PCB utilizes the cheap ATTINY16-14 MCU and utilizes Doppler Radars, Distance Sensors, and Infrared cameras to detect survivors trapped under rubble or other items. It broadcasts its data using an RFM95W LoRa transceiver (receiver and transmitter) on 915mHz. It is battery powered and uses a u.FL port for the antenna.
 
@@ -35,8 +37,11 @@ The folders inside the survivornode, broadcastnode, or environmental node are st
 
 The computer_code folder has a reciever.exe file for running on Windows without any dependencies being required to be installed. The reciever.py file can be run universally and requires Tkinter (already installed on most Python distributions), pyserial, and Python 3.13+ to run.
 
+# WHAT I LEARNED
+I learned how to make PCBs in KiCad 10 with proper symbols and footprints. I also learned how to use the design and electrical rules checker to make sure my project met all of the rules.
 
+# CHALLENGES I FACED
+Some challenges I faced included having issues with footprint/symbol quality, finding proper footprints for some of my component choices, and exporting gerbers. I solved these issues by searching up solutions online and using external plugins to export gerbers properly since it was bugged out with LCSC symbols. 
 
 # DIAGRAM
 <img width="1375" height="2325" alt="DiagramFirstResponderSystem" src="https://github.com/user-attachments/assets/aa57760f-e5ed-49a4-a554-ddbbb89a2e3d" />
-
